@@ -26,9 +26,8 @@ const main = (input) => {
         let sameLetter = commonItem(linesArray[i]);
         result += alphabetPosition(sameLetter);
     }
-    return result
+    return result;
 };
-
 
 
 // advent of code day #3 part #2
